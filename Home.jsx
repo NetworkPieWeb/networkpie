@@ -1,1 +1,3 @@
-import React from 'react'; export default ()=> <div style={{padding:'40px'}}> <h1>NetworkPie Deployment Test</h1><p>Your Vercel build is ready.</p></div>;
+export default function Home(){
+  return <div className='p-10 text-3xl'>NetworkPie — Home</div>;
+}
